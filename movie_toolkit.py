@@ -1,3 +1,6 @@
+# copyright (c) 2025 Tomohisa Saisho all rights reserved.
+# This software is released under the MIT License.
+
 import cv2
 import os
 import glob
@@ -125,4 +128,5 @@ def extract_frames_by_interval(video_path, output_folder_path,interval=10, ):
     cap.release()
 
 if __name__ == '__main__':
+
    movie_toolkit.extract_frames_by_interval_in_folder(sys.argv[1],sys.argv[2])
