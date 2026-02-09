@@ -125,6 +125,7 @@ def extract_frames_by_interval(video_path, output_folder_path,interval=10, ):
     cap.release()
 
 if __name__ == '__main__':
-
+# usage: Python movie_toolkit.py ./input_folder ./output_folder
    movie_toolkit.extract_frames_by_interval_in_folder(sys.argv[1],sys.argv[2])
+
 
