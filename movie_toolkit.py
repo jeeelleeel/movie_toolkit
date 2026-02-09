@@ -5,10 +5,7 @@ import cv2
 import os
 import glob
 import inspect
-from enum import Enum
 import logging
-import natsort
-import argparse
 from pathlib import Path
 import math
 import sys
@@ -130,3 +127,4 @@ def extract_frames_by_interval(video_path, output_folder_path,interval=10, ):
 if __name__ == '__main__':
 
    movie_toolkit.extract_frames_by_interval_in_folder(sys.argv[1],sys.argv[2])
+
